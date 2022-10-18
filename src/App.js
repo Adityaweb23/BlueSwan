@@ -3,6 +3,8 @@ import About from "./Components/About";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
+import Contact from "./Components/Contact";
+import Curriculum from "./Components/Curriculum";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,7 +17,7 @@ function App() {
     <BrowserRouter>
       <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Curriculum />} />
         <Route path="/About" element={<About />}></Route>
         {/* <Route path="/classes" element={<Curriculum />}></Route>
         <Route path="/Career" element={<Career />}></Route>

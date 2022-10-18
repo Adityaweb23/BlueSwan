@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/style.css";
+import "../App.css";
 import "../scss/bootstrap.scss";
 import { NavLink } from "react-router-dom";
 
@@ -26,7 +27,8 @@ const Navbar = () => {
               // href=""
               to={"/"}
               class="nav-item nav-link active"
-              style={{ padding: "30px 15px", fontWeight: "500 !important" }}
+
+              // style={navcss}
             >
               Home
             </NavLink>
