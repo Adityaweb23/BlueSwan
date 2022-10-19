@@ -120,7 +120,7 @@ const Home = () => {
               </div>
               <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                 <div class="h-100 d-flex flex-column justify-content-center p-2">
-                  <h1 class="mb-4">Awards and Achievements</h1>
+                  <h1 class="title mb-4">Awards and Achievements</h1>
                   <p class=" mb-0 p-2">
                     By far, the most common end of the year award is for
                     attendance. Students can be rewarded for each quarter,
@@ -149,7 +149,7 @@ const Home = () => {
             <div class="row g-0">
               <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                 <div class="h-100 d-flex flex-column justify-content-center p-2">
-                  <h1 class="mb-4">Why BlueSwan Public School</h1>
+                  <h1 class="title mb-4">Why BlueSwan Public School</h1>
                   <div class="section_title ml-lg-5">
                     <br />
                     <br />

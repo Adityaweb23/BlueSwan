@@ -1,7 +1,7 @@
 /* Curriculum */
 .events .card {
   border: 0;
-  padding: 0 30px;
+  /* padding: 0 30px; */
   margin-bottom: 60px;
   position: relative;
   background-color: #fff5f3;
@@ -22,7 +22,7 @@
 
 .events .card-body {
   z-index: 10;
-  background: #e5b9b1;
+  background: #ffe7e3;
   border-top: 4px solid #fff5f3;
   padding: 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -71,12 +71,12 @@
 }
 .curriculum_base,
 .career_cont {
-  background-color: #fff5f3;
+  background-color: #ffe7e3;
   border-radius: 100% 100% 100% 100%;
 }
 
 .hell {
-  background-color: #e5b9b1;
+  background-color: #ffe7e3;
   border-radius: 25px;
 }
 
@@ -140,4 +140,8 @@
     transition: 0.5s;
     opacity: 1;
   }
+}
+
+.career_cont2 {
+  background-color: white;
 }

@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import Contact from "./Components/Contact";
 import Curriculum from "./Components/Curriculum";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Career from "./Components/Career";
 
 function App() {
   return (
@@ -17,11 +18,13 @@ function App() {
     <BrowserRouter>
       <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<Curriculum />} />
+        <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />}></Route>
-        {/* <Route path="/classes" element={<Curriculum />}></Route>
+        <Route path="/classes" element={<Curriculum />}></Route>
+        <Route path="/Curriculum" element={<Curriculum />}></Route>
         <Route path="/Career" element={<Career />}></Route>
-        <Route path="/Contact" element={<Contact />}></Route> */}
+        <Route path="/Contact" element={<Contact />}></Route>
+        <Route path="/Career/Contact" element={<Contact />}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
