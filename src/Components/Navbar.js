@@ -2,6 +2,7 @@ import React from "react";
 import "../css/style.css";
 import "../App.css";
 import "../scss/bootstrap.scss";
+import logo from "../img/logo.jpeg";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -10,7 +11,12 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
         <NavLink to={"/"} class="navbar-brand">
           <h1 class="m-0 text-primary">
-            <i class="fa fa-book-reader me-3"></i>Kider
+            <img
+              class="img-fluid"
+              src={logo}
+              style={{ width: "120px", height: "60px" }}
+              alt=""
+            />
           </h1>
         </NavLink>
         <button
@@ -27,8 +33,7 @@ const Navbar = () => {
               // href=""
               to={"/"}
               class="nav-item nav-link active"
-
-              // style={navcss}
+              style={{}}
             >
               Home
             </NavLink>
@@ -41,35 +46,7 @@ const Navbar = () => {
             <NavLink to={"/career"} class="nav-item nav-link">
               Career
             </NavLink>
-            <div class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
-                Pages
-              </a>
-              <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
-                <a href="#" class="dropdown-item">
-                  School Facilities
-                </a>
-                <a href="#" class="dropdown-item">
-                  Popular Teachers
-                </a>
-                <a href="#" class="dropdown-item">
-                  Become A Teachers
-                </a>
-                <a href="#" class="dropdown-item">
-                  Make Appointment
-                </a>
-                <a href="#" class="dropdown-item">
-                  Testimonial
-                </a>
-                <a href="#" class="dropdown-item">
-                  404 Error
-                </a>
-              </div>
-            </div>
+
             <NavLink to={"/contact"} class="nav-item nav-link">
               Contact Us
             </NavLink>

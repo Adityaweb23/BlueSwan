@@ -64,7 +64,9 @@ const Career = () => {
                     interview.
                   </p>
                   <br />
-                  <NavLink to={"contact"}>For More Details.</NavLink>
+                  <NavLink to={"contact"} style={{ color: "#fe5d37" }}>
+                    For More Details.
+                  </NavLink>
                 </div>
               </div>
             </div>

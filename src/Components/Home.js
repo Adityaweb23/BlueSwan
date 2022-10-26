@@ -15,7 +15,7 @@ import classes3 from "../img/classes-3.jpg";
 import classes4 from "../img/classes-4.jpg";
 import classes5 from "../img/classes-5.jpg";
 import classes6 from "../img/classes-6.jpg";
-import appointment from "../img/appointment.jpg";
+import appointment from "../img/appointment.jpeg";
 import team1 from "../img/team-1.jpg";
 import team2 from "../img/team-2.jpg";
 import team3 from "../img/team-3.jpg";
@@ -194,8 +194,8 @@ const Home = () => {
         <div class="container">
           <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <h1 class="mb-4">About Us</h1>
-              <h4 className="title mb-4" style={{ fontSize: 29 }}>
+              <h1 class="title mb-4">About Us</h1>
+              <h4 className="mb-4" style={{ fontSize: 29 }}>
                 "Blue Swan Public School" addressing the educational needs of
                 early childhood years by following developmentally appropriate
                 practices.

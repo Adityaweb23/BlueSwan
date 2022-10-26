@@ -106,14 +106,14 @@ const Curriculum = () => {
                   <br />
                   <br />
                   <ul>
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp; Approaches to Learning Making and expressing
                       choices, plans, and decisions, Solving problems
                       encountered in play.
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Language, Literacy, and Communication Talking with
                       others about personally meaningful experiences Describing
@@ -125,26 +125,26 @@ const Curriculum = () => {
                       symbols, one’s own writing, Dictating stories.
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Social and Emotional Development Taking care of
                       one’s own needs, Expressing feelings in words, Dealing
                       with social conflict.
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Physical Development, Health, and Well-Being.
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Arts and Sciences Paper tearing, Watercolours-
                       dabbing, Paper crumpling and pasting, Clay modeling and
                       many others.
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Science and Technology: Classification Recognizing
                       objects by sight, sound, touch, taste, and smell,
@@ -152,37 +152,37 @@ const Curriculum = () => {
                       the attributes of things and others.
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Social Studies.
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Time
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Visual Arts
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Dramatic Art
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Music
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Fine Motor Development
                     </li>
                     <br />
-                    <li>
+                    <li style={{ listStyle: "none" }}>
                       <BsCheckCircle />
                       &nbsp;Mathematics
                     </li>

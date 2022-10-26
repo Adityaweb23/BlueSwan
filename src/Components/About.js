@@ -118,8 +118,8 @@ const Home = () => {
                   />
                 </div>
               </div>
-              <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <div class="h-100 d-flex flex-column justify-content-center p-2">
+              <div class="col-lg-6  wow fadeIn" data-wow-delay="0.5s">
+                <div class="h-100 p-md-5 d-flex flex-column justify-content-center ">
                   <h1 class="title mb-4">Awards and Achievements</h1>
                   <p class=" mb-0 p-2">
                     By far, the most common end of the year award is for

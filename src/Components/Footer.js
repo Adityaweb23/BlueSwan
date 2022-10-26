@@ -1,12 +1,12 @@
 import React from "react";
 import "../css/style.css";
 import "../scss/bootstrap.scss";
-import classes1 from "../img/classes-1.jpg";
-import classes2 from "../img/classes-2.jpg";
-import classes3 from "../img/classes-3.jpg";
-import classes4 from "../img/classes-4.jpg";
-import classes5 from "../img/classes-5.jpg";
-import classes6 from "../img/classes-6.jpg";
+import classes1 from "../img/classes-1.jpeg";
+import classes2 from "../img/classes-2.jpeg";
+import classes3 from "../img/classes-3.jpeg";
+import classes4 from "../img/classes-4.jpeg";
+import classes5 from "../img/classes-5.jpeg";
+import classes6 from "../img/classes-6.jpeg";
 
 const Footer = () => {
   return (
@@ -47,19 +47,19 @@ const Footer = () => {
             <div class="col-lg-4 col-md-6">
               <h3 class="text-white mb-4">Quick Links</h3>
               <a class="btn btn-link text-white-50" href="">
-                About Us
+                ► About Us
               </a>
               <a class="btn btn-link text-white-50" href="">
-                Contact Us
+                ► Contact Us
               </a>
               <a class="btn btn-link text-white-50" href="">
-                Our Services
+                ► Our Services
               </a>
               <a class="btn btn-link text-white-50" href="">
-                Privacy Policy
+                ► Privacy Policy
               </a>
               <a class="btn btn-link text-white-50" href="">
-                Terms & Condition
+                ► Terms & Condition
               </a>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -136,13 +136,17 @@ const Footer = () => {
             <div class="row">
               <div class="col-md-12 text-center  mb-3 mb-md-0">
                 &copy;{" "}
-                <a class="border-bottom" href={"/"}>
+                <a class="" href={"/"}>
                   Blue Swan Public School
                 </a>
                 .All Right Reserved.
                 {/* This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support.  */}
                 Designed and Maintained By{" "}
-                <a class="border-bottom" href="https://uphilltech.com">
+                <a
+                  class=""
+                  href="https://uphilltech.com"
+                  style={{ textDecoration: "none" }}
+                >
                   Uphill Technologies
                 </a>
               </div>
