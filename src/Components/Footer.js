@@ -46,20 +46,20 @@ const Footer = () => {
             </div>
             <div class="col-lg-4 col-md-6">
               <h3 class="text-white mb-4">Quick Links</h3>
-              <a class="btn btn-link text-white-50" href="">
+              <a class="btn btn-link text-white-50" href="/">
+                ► Home
+              </a>
+              <a class="btn btn-link text-white-50" href="/about">
                 ► About Us
               </a>
-              <a class="btn btn-link text-white-50" href="">
+              <a class="btn btn-link text-white-50" href="/curriculum">
+                ► Curriculum
+              </a>
+              <a class="btn btn-link text-white-50" href="/career">
+                ► Career
+              </a>
+              <a class="btn btn-link text-white-50" href="/contact">
                 ► Contact Us
-              </a>
-              <a class="btn btn-link text-white-50" href="">
-                ► Our Services
-              </a>
-              <a class="btn btn-link text-white-50" href="">
-                ► Privacy Policy
-              </a>
-              <a class="btn btn-link text-white-50" href="">
-                ► Terms & Condition
               </a>
             </div>
             <div class="col-lg-4 col-md-6">
