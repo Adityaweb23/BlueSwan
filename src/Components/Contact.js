@@ -20,19 +20,7 @@ const Contact = () => {
           <h1 class="display-2 text-white animated slideInDown mb-4">
             Contact Us
           </h1>
-          <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="#">Home</a>
-              </li>
-              <li class="breadcrumb-item">
-                <a href="#">Pages</a>
-              </li>
-              <li class="breadcrumb-item text-white active" aria-current="page">
-                Contact Us
-              </li>
-            </ol>
-          </nav>
+         
         </div>
       </div>
       {/* <!-- Page Header End --> */}
