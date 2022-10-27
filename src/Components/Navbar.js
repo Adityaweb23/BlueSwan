@@ -14,7 +14,7 @@ const Navbar = () => {
             <img
               class="img-fluid"
               src={logo}
-              style={{ width: "120px", height: "60px" }}
+              style={{ width: "140px", height: "60px" }}
               alt=""
             />
           </h1>
