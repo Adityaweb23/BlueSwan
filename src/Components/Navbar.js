@@ -14,7 +14,7 @@ const Navbar = () => {
             <img
               class="img-fluid"
               src={logo}
-              style={{ width: "120px", height: "60px" }}
+              style={{ width: "140px", height: "60px" }}
               alt=""
             />
           </h1>
@@ -43,6 +43,7 @@ const Navbar = () => {
             <NavLink to={"/curriculum"} class="nav-item nav-link">
               Curriculum
             </NavLink>
+<NavLink to={"/event"} className="nav-item nav-link ">Events</NavLink>
             <NavLink to={"/career"} class="nav-item nav-link">
               Career
             </NavLink>

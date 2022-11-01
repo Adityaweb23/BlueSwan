@@ -7,6 +7,9 @@ import Contact from "./Components/Contact";
 import Curriculum from "./Components/Curriculum";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Career from "./Components/Career";
+import Events from "./Components/Events";
+import Singleevents from "./Components/Singleevent";
+
 
 function App() {
   return (
@@ -25,6 +28,8 @@ function App() {
         <Route path="/Career" element={<Career />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
         <Route path="/Career/Contact" element={<Contact />}></Route>
+        <Route path="/event" element={<Events />}></Route>
+        <Route path="/Singleevent/:id" element={<Singleevents />}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>

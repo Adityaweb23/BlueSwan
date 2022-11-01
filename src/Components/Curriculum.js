@@ -14,13 +14,13 @@ const Curriculum = () => {
     <>
       {/* <div className="container curriculum mt-3 row align-items-center"> */}
       {/*page header start  */}
-      <div class="container-xxl py-5 page-header position-relative mb-5">
-        <div class="container py-5 row">
-          <div class="col-md-6">
-            <h1 class="display-2 text-white animated slideInDown mb-4">
+      <div className="container-xxl py-5 page-header position-relative mb-5">
+        <div className="container py-5 row">
+          <div className="col-md-6">
+            <h1 className="display-2 text-white animated slideInDown mb-4">
               Curriculum
             </h1>
-            <p class="text-white">
+            <p className="text-white">
               It is a pleasure and sorrows, that they should not be elected in
               some cases we may be able to do. It was from this, or something
               similar because it is pleasure, look for the debts. No one of
@@ -31,26 +31,26 @@ const Curriculum = () => {
         </div>
       </div>
       {/*page header end  */}
-      <div class="hell col-12 text-center  about-banner"></div>
-      <div class="col-12 align-items-center my-5">
-        <section id="events" class="events">
-          <div class="container-fluid" data-aos="fade-up">
-            <div class="row">
-              <div class="col-md-6 p-md-5 col-12 d-flex align-items-stretch">
-                <div class="card">
-                  <div class="card-img">
+      <div className="hell col-12 text-center  about-banner"></div>
+      <div className="col-12 align-items-center my-5">
+        <section id="events" className="events">
+          <div className="container-fluid" data-aos="fade-up">
+            <div className="row">
+              <div className="col-md-6 p-md-5 col-12 d-flex align-items-stretch">
+                <div className="card">
+                  <div className="card-img">
                     <img src={frame1} alt="..." className="img-fluid" />
                   </div>
-                  <div class="card-body">
-                    <h5 class="card-title">
+                  <div className="card-body">
+                    <h5 className="card-title">
                       <a href="">Philosophy of Our Curriculum</a>
                     </h5>
-                    <p class="font-italic text-center">
+                    <p className="font-italic text-center">
                       The curriculum is based on the belief that children learn
                       best through “active learning,” direct, hands-on
                       experiences with people, objects, events, and ideas.
                     </p>
-                    <p class="card-text">
+                    <p className="card-text">
                       {" "}
                       Children are encouraged to “construct’ their own knowledge
                       by pursuing their personal interests and goals, guided by
@@ -64,19 +64,19 @@ const Curriculum = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 p-md-5 d-flex align-items-stretch ">
-                <div class="card">
-                  <div class="card-img">
+              <div className="col-md-6 p-md-5 d-flex align-items-stretch ">
+                <div className="card">
+                  <div className="card-img">
                     <img src={frame1} alt="..." className="img-fluid" />
                   </div>
-                  <div class="card-body">
-                    <h5 class="card-title">
+                  <div className="card-body">
+                    <h5 className="card-title">
                       <a href="">What does this curriculum include?</a>
                     </h5>
-                    <p class="font-italic text-center">
+                    <p className="font-italic text-center">
                       Key Developmental Indicators
                     </p>
-                    <p class="card-text">
+                    <p className="card-text">
                       Preschool Key Developmental Indicators (Key Experiences)
                       “Key developmental indicators” (KDls) are early childhood
                       milestones that guide teachers as they plan & assess
@@ -91,18 +91,18 @@ const Curriculum = () => {
           </div>
         </section>
       </div>
-      <div class="col-12 align-items-left curriculum_base my-4">
-        <section id="about" class="about">
-          <div class="container aos-init aos-animate" data-aos="fade-up">
-            <div class="row">
+      <div className="col-12 align-items-left curriculum_base my-4">
+        <section id="about" className="about">
+          <div className="container aos-init aos-animate" data-aos="fade-up">
+            <div className="row">
               <div
-                class="col-lg-20 order-10 order-lg-10 aos-init aos-animate"
+                className="col-lg-20 order-10 order-lg-10 aos-init aos-animate"
                 data-aos="fade-left"
                 data-aos-delay="100"
               >
-                <div class="col-lg-30   content">
+                <div className="col-lg-30   content">
                   <p></p>
-                  <h1 class="title">Glimpse of Curriculum</h1>
+                  <h1 className="title">Glimpse of Curriculum</h1>
                   <br />
                   <br />
                   <ul>
@@ -193,6 +193,9 @@ const Curriculum = () => {
             </div>
           </div>
         </section>
+        <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top">
+        <i className="bi bi-arrow-up"></i>
+      </a>
       </div>
       {/* </div> */}
     </>
