@@ -44,21 +44,21 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
-              <h3 className="text-white mb-4">Quick Links</h3>
-              <a className="btn btn-link text-white-50" href="/">
+            <div class="col-lg-4 col-md-6">
+              <h3 class="text-white mb-4">Quick Links</h3>
+              <a class="btn btn-link text-white-50" href="/">
                 ► Home
               </a>
-              <a className="btn btn-link text-white-50" href="/about">
+              <a class="btn btn-link text-white-50" href="/about">
                 ► About Us
               </a>
-              <a className="btn btn-link text-white-50" href="/curriculum">
+              <a class="btn btn-link text-white-50" href="/curriculum">
                 ► Curriculum
               </a>
-              <a className="btn btn-link text-white-50" href="/career">
+              <a class="btn btn-link text-white-50" href="/career">
                 ► Career
               </a>
-              <a className="btn btn-link text-white-50" href="/contact">
+              <a class="btn btn-link text-white-50" href="/contact">
                 ► Contact Us
               </a>
             </div>

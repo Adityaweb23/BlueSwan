@@ -193,8 +193,8 @@ const Curriculum = () => {
             </div>
           </div>
         </section>
-        <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top">
-        <i className="bi bi-arrow-up"></i>
+       <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
+        <i class="bi bi-arrow-up"></i>
       </a>
       </div>
       {/* </div> */}

@@ -20,7 +20,7 @@ const Contact = () => {
           <h1 className="display-2 text-white animated slideInDown mb-4">
             Contact Us
           </h1>
-          
+         
         </div>
       </div>
       {/* <!-- Page Header End --> */}
