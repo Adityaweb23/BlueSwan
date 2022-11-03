@@ -114,11 +114,11 @@ const Home = () => {
             style={{ maxWidth: "600px" }}
           >
             <h1 className="mb-3">School Facilities</h1>
-            <p>
+            {/* <p>
               Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut
               dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed
               rebum vero dolor duo.
-            </p>
+            </p> */}
           </div>
           <div className="row g-4">
             <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -130,10 +130,10 @@ const Home = () => {
                 </div>
                 <div className="facility-text bg-primary">
                   <h3 className="text-primary mb-3">School Bus</h3>
-                  <p className="mb-0">
+                  {/* <p className="mb-0">
                     Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero
                     ipsum sit
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -146,10 +146,10 @@ const Home = () => {
                 </div>
                 <div className="facility-text bg-success">
                   <h3 className="text-success mb-3">Playground</h3>
-                  <p className="mb-0">
+                  {/* <p className="mb-0">
                     Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero
                     ipsum sit
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -162,10 +162,10 @@ const Home = () => {
                 </div>
                 <div className="facility-text bg-warning">
                   <h3 className="text-warning mb-3">Healthy Canteen</h3>
-                  <p className="mb-0">
+                  {/* <p className="mb-0">
                     Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero
                     ipsum sit
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -178,10 +178,10 @@ const Home = () => {
                 </div>
                 <div className="facility-text bg-info">
                   <h3 className="text-info mb-3">Positive Learning</h3>
-                  <p className="mb-0">
+                  {/* <p className="mb-0">
                     Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero
                     ipsum sit
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

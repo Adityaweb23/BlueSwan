@@ -84,7 +84,7 @@ const Contact = () => {
             <div className="row g-0">
               <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <div className="h-100 d-flex flex-column justify-content-center p-5">
-                  <p className="mb-4">
+                  {/* <p className="mb-4">
                     The contact form is currently inactive. Get a functional and
                     working contact form with Ajax & PHP in a few minutes. Just
                     copy and paste the files, add a little code and you're done.{" "}
@@ -92,7 +92,7 @@ const Contact = () => {
                       Download Now
                     </a>
                     .
-                  </p>
+                  </p> */}
                   <form>
                     <div className="row g-3">
                       <div className="col-sm-6">
